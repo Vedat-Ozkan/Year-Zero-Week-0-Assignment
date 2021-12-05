@@ -1,6 +1,7 @@
 import React from "react";
 
 function Win(props) {
+  // Stackoverflow
   function arraysEqual(a, b) {
     if (a === b) return true;
     if (a == null || b == null) return false;
@@ -18,7 +19,6 @@ function Win(props) {
   }
 
   return (<div>
-    {console.log(props.arr, [1,2,3,4,5,6,7,8,0])}
     <h1>{arraysEqual(props.arr, [1,2,3,4,5,6,7,8,0]) && "You WIN!"}</h1>
   </div>)
 };
