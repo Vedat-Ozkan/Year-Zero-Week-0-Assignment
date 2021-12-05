@@ -1,0 +1,17 @@
+.Num {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+} 
+
+.Num h1 {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+}
+
+body {
+  width: 610px;
+  margin: auto;
+}
